@@ -1,0 +1,24 @@
+{
+  "name": "foreach-promise",
+  "version": "0.0.1",
+  "description": "handle series of nested forEachs as one big promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node ./test/test.spec.js"
+  },
+  "keywords": [
+    "forEach",
+    "promise",
+    "nested",
+    "synchronous",
+    "sync",
+    "async",
+    "asynchronous",
+    "foreach"
+  ],
+  "author": "vmvini",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
