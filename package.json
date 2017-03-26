@@ -2,6 +2,10 @@
   "name": "foreach-promise",
   "version": "0.0.1",
   "description": "handle series of nested forEachs as one big promise",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vmvini/foreach-promise.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/jasmine-node ./test/test.spec.js"
