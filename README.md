@@ -3,6 +3,24 @@ handle series of nested forEachs as one big promise
 
 If you are tired of handling js asynchronous forEachs with counters and stuff, this little module will help you.
 
+### Install
+
+```javascript
+npm install foreach-promise --save
+```
+
+### Usage
+
+```javsascript
+ const forEP = require('foreach-promise');
+ 
+ forEP(array, callback) : returns a Promise that resolves when all the data is traversed
+ callback can be a function which returns another forEP execution. (for foreach nesting)
+ callback will be called with element, index, array arguments.
+```
+
+
+
 Let's say you're coding a function to generate names with nouns and adjectives, maybe you code something like the function below to do this.
 
 ```javascript
